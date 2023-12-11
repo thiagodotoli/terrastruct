@@ -1,0 +1,67 @@
+Usuário: "GOL\n(@voegol.com.br)" {
+  shape: person
+  style.fill: "#ff7020"
+  width: 89
+  height: 95
+  style.stroke: "#ff7020"
+  top: 217
+  left: 613
+}
+
+Text: "" {
+  shape: cloud
+  style.fill: transparent
+  width: 262
+  height: 168
+
+  top: 296
+  left: 212
+  SaaS: {
+    icon: https://s3-us-west-1.amazonaws.com/terrastruct.uploaded-images/1764709084/bpmtqoofhkmsdcgiqorqmjaycxctiu.png
+    shape: image
+    width: 112
+    height: 112
+    top: 0
+    left: 0
+  }
+}
+Usuário -> Text 2: "- Administra Usuário\n- Usuário Padrão\n- Aprova Conciliação"
+Usuário 2: "Central de Acessos\nN1\n(@unlimit.com.br)" {
+  shape: person
+  width: 83
+  height: 95
+  style.fill: transparent
+  top: 0
+  left: 181
+}
+Usuário 3: "Smiles\n@smiles.com.br" {
+  shape: person
+  width: 87
+  height: 95
+  style.fill: "#663399"
+  style.stroke: "#663399"
+  top: 352
+  left: 0
+}
+Usuário 2 -> Text 2: "- Administra Usuário\n- Usuário Padrão" {
+  style.animated: false
+  target-arrowhead.shape: triangle
+}
+Usuário 3 -> Text: "- Usuário Padrão\n- Parâmetros de Relatórios"
+
+ROLES: ROLES {
+  shape: page
+  style.fill: "#87bff3"
+  width: 100
+  height: 109
+  top: 440
+  left: 417
+}
+Text 2: LOGIN {
+  icon: https://www.gobio.com/wp-content/uploads/2020/05/login.png
+  shape: image
+  top: 232
+  left: 331
+  width: 64
+  height: 64
+}
